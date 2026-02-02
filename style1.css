@@ -1,0 +1,43 @@
+body {
+    padding: 10px;
+    background-color: #fff;
+    color: #000;
+}
+
+.container {
+    max-width: 800px;
+    margin: 1 auto;
+}
+
+
+h2 {
+    font-size: 16px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+
+
+
+
+
+.label {
+    width: 180px;
+    font-weight: bold;
+    font-size: 13px;
+    padding-top: 5px;
+}
+
+.content {
+    flex: 1;
+}
+
+
+input[type="text"], select, textarea {
+    width: 100%;
+    padding: 4px;
+    border: 1px solid #7a7a7a;
+    box-sizing: border-box;
+    font-size: 13px;
+}
+
