@@ -1,0 +1,32 @@
+body{
+    font-family: Arial;
+    padding: 20px;
+}
+
+.form{
+    margin-bottom: 15px;
+}
+
+input{
+    padding: 6px;
+    margin-right: 5px;
+}
+
+button{
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,td{
+    padding: 8px;
+    text-align: center;
+}
+
+.yellow{
+    background-color: yellow;
+}

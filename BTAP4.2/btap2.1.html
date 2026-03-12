@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Form Đăng Ký</title>
+<link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+
+<h2>Đăng ký tài khoản</h2>
+<form id="registerForm">
+<label>Họ và tên</label>
+<input type="text" id="fullname">
+<small class="error" id="fullnameError"></small>
+
+<label>Email</label>
+<input type="text" id="email">
+<small class="error" id="emailError"></small>
+
+<label>Số điện thoại</label>
+<input type="text" id="phone">
+<small class="error" id="phoneError"></small>
+
+<label>Mật khẩu</label>
+<input type="password" id="password">
+<small class="error" id="passwordError"></small>
+
+<label>Xác nhận mật khẩu</label>
+<input type="password" id="confirmPassword">
+<small class="error" id="confirmPasswordError"></small>
+
+<label>Giới tính</label>
+<input type="radio" name="gender" value="Nam"> Nam
+<input type="radio" name="gender" value="Nữ"> Nữ
+<small class="error" id="genderError"></small>
+
+<br><br>
+<label>
+<input type="checkbox" id="terms"> Tôi đồng ý điều khoản
+</label>
+<small class="error" id="termsError"></small>
+<br><br>
+<button type="submit">Đăng ký</button>
+</form>
+
+<div id="success"></div>
+<script src="script2.js"></script>
+
+</body>
+</html>
